@@ -8,11 +8,11 @@
 }
 
 body {
-    background-color: #eee;
+    background-color: rgb(0, 0, 0);
 }
 
 .heading {
-    color: #444;
+    color: rgb(255, 255, 255);
     font-size: 40px;
     text-align: center;
     padding: 10px;
@@ -27,9 +27,10 @@ body {
 }
 
 .container .main-video {
-    background-color: #fff;
+    background-color: rgba(21, 21, 21, 0.676);
     border-radius: 5px;
     padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.92);
 }
 
 .container .main-video video {
@@ -38,14 +39,17 @@ body {
 }
 
 .container .main-video .title {
-    color: #333;
+    color: rgb(255, 255, 255);
     font-size: 23px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 
 .container .video-list {
-    background-color: #fff;
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: rgba(9, 1, 90, 0.676); */
+    background-color: rgba(21, 21, 21, 0.676);
+    border: 1px solid rgba(0, 0, 0, 0.92);
     border-radius: 5px;
     height: 520px;
     overflow-y: scroll;
@@ -61,7 +65,7 @@ body {
 }
 
 .container .video-list::-webkit-scrollbar-thumb {
-    background-color: #666;
+    background-color: rgb(0, 63, 237);
     border-radius: 50px;
 }
 
@@ -74,7 +78,8 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    background-color: #f7f7f7;
+    /* background-color: #070770; */
+    background-color: rgba(0, 0, 0, 0.925);
     border-radius: 5px;
     margin: 10px;
     padding: 10px;
@@ -83,7 +88,7 @@ body {
 }
 
 .container .video-list .vid:hover {
-    background-color: #eee;
+    background-color: rgb(11, 0, 55);
 }
 
 .container .video-list .vid.active {
@@ -95,7 +100,7 @@ body {
 }
 
 .container .video-list .vid .title {
-    color: #333;
+    color: rgb(255, 249, 249);
     font-size: 17px;
 }
 
